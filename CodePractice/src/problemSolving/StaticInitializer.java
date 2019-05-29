@@ -25,7 +25,7 @@ public class StaticInitializer {
 		 B=s.nextInt();
 		 H=s.nextInt();
 		    
-		  if ((B<=100 && B>=0)&& (H<=100 && H>=0)){
+		  if ((B<=100 && B>0)&& (H<=100 && H>0)){
 		    flag=true;
 		    }
 		    
@@ -62,5 +62,10 @@ Test case 1:
 Test case 2:
 -1
 2
+*/
+/*
+Test case 3:
+0
+100
 */
 
